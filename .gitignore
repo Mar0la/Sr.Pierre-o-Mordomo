@@ -1,0 +1,13 @@
+package-lock.json
+node_modules
+dist
+.env
+example.ts
+README.md
+setup-your-application.md
+
+*deprecated
+*.exe
+*.config
+*.zip
+*.sqlite
