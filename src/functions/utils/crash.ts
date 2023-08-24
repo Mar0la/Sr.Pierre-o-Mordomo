@@ -1,5 +1,5 @@
-import { gray, red } from "chalk";
+import { gray, red } from 'chalk'
 
-export function onCrash(...errors: Array<any>){
-    console.error(gray("[Anti Crash] "), red(errors.join("\n")));
+export function onCrash (...errors: any[]) {
+  console.error(gray('[Anti Crash] '), red(errors.join('\n')))
 }
