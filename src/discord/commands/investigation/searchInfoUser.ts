@@ -1,6 +1,6 @@
 /* eslint-disable no-cond-assign */
 import { Command } from '@discord/base'
-import GetUserForId from '../../../routers/getUser'
+import GetUserForId from '../../../routers/discordApi/getUser'
 import { ApplicationCommandOptionType, ApplicationCommandType, EmbedBuilder } from 'discord.js'
 import { format, differenceInYears, parseISO } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
