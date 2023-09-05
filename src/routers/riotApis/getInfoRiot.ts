@@ -1,21 +1,6 @@
 import axios from 'axios'
 import { processEnv } from '@/settings'
 
-interface Summoner {
-  id: string
-  profileIconId: number
-  name: string
-  summonerLevel: number
-}
-
-interface RankedInfo {
-  tier: string
-  rank: string
-  leaguePoints: number
-  wins: number
-  losses: number
-}
-
 class LeagueOfLegendsService {
   private readonly apiKey: string
   private readonly headers: Record<string, string>
@@ -42,7 +27,6 @@ class LeagueOfLegendsService {
       const response = await axios.get(`https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summonerId}`, { headers: this.headers })
 
       const soloDuoRank = response.data.find((rank: { queueType: string }) => rank.queueType === 'RANKED_SOLO_5x5') || {}
-      console.log(soloDuoRank)
       const flexRank = response.data.find((rank: { queueType: string }) => rank.queueType === 'RANKED_FLEX_SR') || {}
       return {
         soloDuo: {
