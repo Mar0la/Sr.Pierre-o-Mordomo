@@ -11,3 +11,4 @@ setup-your-application.md
 *.config
 *.zip
 *.sqlite
+*example.ts
