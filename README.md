@@ -26,6 +26,19 @@ Pierre o Mordomo é um bot de discord que ainda está em construção/desenvolvi
 Tem tempo que veio com vontade de tentar fazer alguma aplicação para o discord, aproveitei que estou estudando typescript e resolvi fazer um bot para discord assim surgindo Pierre o Mordomo, o projeto não tem como foco sua monetização e sim estudo/aprendizado, da para notar que algumas partes do código estão longe de ser as melhores, porém estou a cada dia melhorando mais e mais meus conceitos, estruturação, meu entendimento, além do aprendizado de diversas coisas.
 
 ---
+
+### Comandos atuais
+![dev ](/assets/Captura%20de%20tela%202023-09-09%20172328.png)
+
+
+Lembrando que estou usando a API da riot para trazer as informações do jogador, peguei todas as informações disponíveis menos as informações dos seguintes jogos Valorant e Legends of Runeterra, também estou usando a API do discord para capitações das informações de perfil do usuário.
+
+  - [LINK API RIOT](https://developer.riotgames.com/apis)
+  - [LINK API DISCORD](https://discord.com/developers/docs/getting-started)
+
+---
+
+
 ### :keyboard: Instalação e Execução do Projeto
 
 - Clone este repositório
@@ -58,7 +71,6 @@ yarn dev
 ### **Retorno que devemos ter ao digitar  <code>yarn dev</code> no terminal** 
 
  ![dev ](/assets//Captura%20de%20tela%202023-09-08%20161253.png)
-
 ---
 
 
